@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* selector{
+        property:values;
+      } */
+
+      /* selector is the element you want to style */
+
+      /* id selector #       class selector. */
+
+      #block {
+        background-color: lightblue;
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        margin: 10px;
+        padding: 20px;
+        box-shadow: 6px 10px 5px 1px #564b4b;
+        border-radius: 10px;
+        text-shadow: #101017;
+
+        /* box shadow is used to add shadow to the element */
+      }
+
+      #css {
+        background-color: aquamarine;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: #564b4b 6px 10px 5px 1px;
+        /* box shadow is used to add shadow to the element */
+        text-shadow: #101017;
+      }
+
+      body {
+        display: flex;
+        background-color: #ffffff;
+      }
+
+      #welcome_text {
+        margin-top: 20px;
+        color: red;
+        text-shadow: blue 2px 2px 5px;
+      }
+      /* decendent selector  */
+
+      #welcome_text span {
+        color: blue;
+        font-size: 30px;
+        text-shadow: black 2px 2px 5px;
+        text-transform: uppercase;
+      }
+      marquee {
+        color: rgb(42, 125, 177);
+        text-decoration: underline;
+        height: 200px;
+      }
+
+      #marq span {
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <!--block-->
+    <div id="block">
+      <h1>HTML</h1>
+      <p>Hyper text markup language</p>
+    </div>
+
+    <div id="css">
+      <h1>CSS</h1>
+      <p>cascading Style Sheets</p>
+    </div>
+
+    <!-- inline grouping with span -->
+
+    <p id="welcome_text"><span>Welcome</span> Nepal</p>
+
+    <marquee behavior="" direction="" id="scroll">
+      <span><p>My name is aadarsan</p></span>
+
+      <p><del>Deleted text</del></p></marquee
+    >
+    >
+  </body>
+</html>
