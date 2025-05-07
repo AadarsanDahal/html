@@ -41,7 +41,6 @@
       }
 
       body {
-        display: flex;
         background-color: #ffffff;
       }
 
@@ -67,6 +66,44 @@
       #marq span {
         color: #000;
       }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: #000000;
+        color: #fff;
+
+        /* to center a div */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        /* to center a div  */
+
+        font-size: 30px;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 20px;
+      }
+
+      #a {
+        background-color: #ea9494;
+      }
+      #b {
+        background-color: #f88533;
+      }
+      #c {
+        background-color: #0000ff;
+      }
+
+      #main {
+        display: flex;
+        justify-content: center;
+
+        /* MF you just centred a div  */
+      }
     </style>
   </head>
   <body>
@@ -90,6 +127,24 @@
 
       <p><del>Deleted text</del></p></marquee
     >
-    >
+    <br />
+    <hr />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+      temporibus sint odit quibusdam ab, illum sapiente harum inventore aliquam
+      doloribus?
+    </p>
+
+    <code>
+      for(int i=0;i<10;i++)<br />
+
+      { console.log(i); }
+    </code>
+
+    <div id="main">
+      <div id="a" class="box">A</div>
+      <div id="b" class="box">B</div>
+      <div id="c" class="box">C</div>
+    </div>
   </body>
 </html>
