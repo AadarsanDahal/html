@@ -1,0 +1,89 @@
+body{
+
+    font-family: poppins, sans-serif;
+    background-color: rgb(22, 20, 37);
+  
+}
+
+#navbar{
+
+    background-color: rgb(4, 42, 57);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    /* justify-content: right; */
+        justify-content: space-between; /* Align logo to the left and links to the right */
+
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    justify-content: space-between;
+    /* padding: right: 20px; */
+      margin-top: 10px;
+}
+
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: white;
+}
+
+
+#navbar ul li a{
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-decoration: none;
+color: rgb(255, 255, 255);
+    align-items: right;
+}
+
+
+
+
+#photo1{
+    height: 150px;
+    width: 175px;
+
+    
+}
+
+#card-container {
+    display: flex; /* Use flexbox to align cards side by side */
+    justify-content: center; /* Center the cards horizontally */
+    flex-wrap: wrap; /* Allow wrapping if there are too many cards */
+    gap: 20px; /* Add spacing between cards */
+    margin: 20px; /* Add margin around the container */
+}
+
+#card1 {
+    background-color: rgb(36, 105, 132);
+    height: 330px;
+    width: 320px;
+    box-shadow: -1px 8px 7px rgba(236, 232, 232, 0.2);
+    display: flex;
+    flex-direction: column; /* Align content inside the card vertically */
+    align-items: center; /* Center content inside the card horizontally */
+    justify-content: center; /* Center content inside the card vertically */
+    padding-left: 2px;
+
+    margine-bottom: 20px;
+}
+
+
+footer {
+                width: 100%;
+                background-color: #212529;
+                color: white;
+                text-align: center;
+            
+            }
