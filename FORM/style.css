@@ -1,0 +1,33 @@
+#form{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: solid 1px #000000;
+    padding: 30px;
+    margin: 50px auto;
+    
+
+}
+
+#register{
+    text-align: center;
+}
+
+#form button {
+    width: 100px;
+    height: 40px;
+    background-color: #1068cc; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+
+
