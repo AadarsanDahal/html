@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>From Example</h1>
+
+
+    <form action="https://www.google.com" target="_blank" onsubmit="alert('Form submitted successfully!'); "> 
+
+        <input type="text" name="fullname" placeholder="enter your name"> <br>
+        <input type="email" name="" id="" required placeholder="enter your email" required > <br>
+        <input type="password" name="" id="" required placeholder="enter password" required  minlength="6"> <br>
+        <input type="submit" name="" id="" value="LOGIN"> 
+    </form>
+
+    <!-- REGISTER FORM -->
+
+<form action="https://www.google.com" target="_blank">
+    <h4>REGISTER</h4>
+    <label for="DOB" >Date of Birth</label><br>
+    <input type="date" name="" id="DOB" aria-required>
+
+
+<br>
+
+    <label for="age">AGE</label>
+    <input type="number" name="" id="age" required min="18" value ="18"> <br>
+
+
+    <label for="terms">TERMS and CONDITIONS</label>
+    <input type="checkbox" name="" id="terms" required>
+
+
+    <!-- GENDER FIELD -->
+
+    <h4>Select Gender</h4>
+
+    <input type="radio" name="gender" id="" value="Male">  male 
+    <input type="radio" name="gender" id="" value="Female">  female
+    <input type="radio" name="gender" id="" value="Other">  other
+
+    <input type="submit" name="" id="" value="REGISTER" > 
+
+
+
+    <!-- Dropdown -->
+    <select name="fav_sports" id="">
+    <option value="cricket">cricket</option>
+    <option value="football">football</option>
+    <option value="basketball">basketball</option>
+   
+    </select>
+
+    <input type="submit" value="register">
+
+
+    <input type="text" name="fav_player" id="" list="players">
+    <datalist id="players"> 
+
+        <option value="Ronaldo"></option>
+        <option value="Messi"></option>
+        <option value="neymar"></option>
+        <option value="Lewis"></option>
+    </datalist>
+
+    <!-- text area -->
+    <textarea name="" id="" placeholder="enter text" rows="10" cols="10"></textarea>
+
+
+</form>
+
+    
+</body>
+</html>    

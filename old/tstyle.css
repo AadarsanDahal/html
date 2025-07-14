@@ -1,0 +1,23 @@
+
+    table,th,td {
+       
+        border: 1.2px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        flex-direction: column;
+
+    }
+
+    #table_2{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    #table4 {
+
+        height: 300px;
+        width: 300px;
+    }
