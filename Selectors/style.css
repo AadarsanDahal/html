@@ -1,13 +1,108 @@
-/* Decendnet selector */
-/* Contain space betwn the decendent selector  */
+    /* Decendnet selector */
+    /* Contain space betwn the decendent selector  */
 
-#main p {
-    color: teal;
+
+    *{
+        background-color: rgb(158, 158, 158);
+    }
+    #main p {
+        color: teal;
+    }
+
+    /* child selector Contains > Sign  */
+
+    #main > p {   
+        color: rgb(2, 171, 255);  
+        /* Direct selector  */
+    }
+
+    /*Group selector */
+
+    #a,#b,#c{
+
+        color: rgb(75, 13, 232);
+        font-size: 30px;
+
+    }
+
+
+    /*Attribute slector*/ 
+
+    input[type="date"]{
+
+        background-color: #cbddbaee;
+        padding: 5px 10px;
+        color: #000000ee;
+        border-radius: 3px;
+    }
+
+
+    input[type="email"]{
+
+        background-color: #ff049aee;
+        padding: 5px 10px;
+        color: #f7f7f7ee;
+        border-radius: 3px;
+    }
+
+
+
+    .menu a[target="_blank"]   {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+    input[disabled] {
+        background-color: red;
+        color: rgb(202, 202, 202);
+    }
+
+    input[placeholder="name"]{
+       background-color: antiquewhite;
+    }
+
+
+    #link_insta{
+        color: burlywood;
+        font-size: 20px;
+    }
+
+
+    #link_insta:hover{
+        color: rgb(204, 0, 255);
+        font-size: 90px;
+    }
+
+
+    #link_insta:active{
+        color: rgb(0, 127, 253);
+        font-size: 70px;
+    }
+
+
+    #link_insta:visited{
+        color: rgb(87, 112, 100);
+        font-size: 40px;
+    }
+
+
+/* .paragraph:first-child{
+color: rgb(217, 217, 61);
+font-size: 40px;
+
+}
+   
+
+.paragraph:nth-child(4){
+    color: blue;
+
+} */
+
+
+.paragraph:nth-child(even){
+    color: blue;
 }
 
-/* child selector Contains > Sign  */
-
-#main > p {   
-    color: rgb(2, 171, 255);  
-    /* Direct selector  */
+.paragraph:nth-child(odd){
+    color: rgb(255, 213, 0);
 }
