@@ -1,0 +1,13 @@
+/* Decendnet selector */
+/* Contain space betwn the decendent selector  */
+
+#main p {
+    color: teal;
+}
+
+/* child selector Contains > Sign  */
+
+#main > p {   
+    color: rgb(2, 171, 255);  
+    /* Direct selector  */
+}

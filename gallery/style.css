@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-card{
+height: 300px;
+width: 300px;
+background-color: #f0f0f0;
+border: 1px solid #ccc;
+border-radius: 30px;
+overflow: hidden;
+position: relative;
+
+
+}
+
+.gallery-card img{
+object-fit: cover;
+height: 100%;
+width: 100%;
+
+}
+
+#gallery{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap
+}
+
+
+.overlay{
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    right: 0;
+    color: #ccc;
+    background-color: #3c3939;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out ;
+}
+
+.gallery-card:hover .overlay{
+    bottom: 0;
+}
+
+
+#facebook {
+    display: inline-block;
+    background-color: rgb(92, 92, 226);
+    padding: 10px 15px;
+    color: aliceblue;
+    text-align: left;
+    position: fixed;
+    border-radius: 20px;
+    width: 60px;
+    overflow: hidden;
+    transition: width 0.8s ease-in-out;
+    right: 20px; /* Add this to position it from the right */
+    top: 100px;  /* Adjust as needed */
+}
+
+
+
+#facebook #txt {
+    display: block;
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 0.5s, transform 0.5s;
+    white-space: nowrap;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+#facebook:hover {
+    width: 180px; /* Expand width on hover */
+}
+
+#facebook:hover #txt {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+#facebook i{
+    font-size: 20px;
+    padding: 10px;
+}
